@@ -1,150 +1,116 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-        <style media="screen">
-        body {
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #155592;
+    color: #E7F5FF;
+  }
+  </style>
+</head>
+<body>
 
-            font-family:'Open Sans',Helvetica,Arial,sans-serif;
-            font-size: 1.5em;
-            margin: 1% 1% 1% 1%;
-            padding: 2%;
-            width: auto;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>日語教室</h1>
+  <p>Resize this responsive page to see the effect!</p>
+</div>
 
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #000;
-        }
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">首頁</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">單字</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">文法</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">日語檢定</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">音樂</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">電影</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">女優</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">卡通</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">遊戲</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
-        li {
-          float: left;
-        }
-        li a {
-          padding: 20px;
-          font-size: 15px;
-        }
+<div class="container" style="margin-top:30px">
+  <div class="row">
 
-        a, a:link,a:visited {
-            font-size: 20px;
-            text-decoration:none;
-            color: white;
-        }
-        a:hover {
-          background-color: red;
-        }
+    <div class="col-sm-8">
+      <h2>本週單字</h2>
+      <h5>Nov 18, 2020 鬼滅之刃 きめつのやいば</h5>
+      <div class="fakeimg">
+        鬼&nbsp; &ensp; &ensp; &ensp;き<br>
+        滅 めつ<br>
+        刃 やいば<br>
+        竈門 炭治郎 かまど たんじろう<br>
+        竈門 禰豆子 かまど ねずこ<br>
+        我妻 善逸   あがつま ぜんいつ<br>
+        嘴平 伊之助 はしびら いのすけ<br>
+      </div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <br>
+      <h2>上週單字</h2>
+      <h5>Nov 11, 2020 女優 </h5>
+      <div class="fakeimg">Fake Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
 
-        div a:hover strong {
-            color: red;
-            background-color: white;
-        }
+    <div class="col-sm-4">
+      <i class="fas fa-hand-point-right">您可能也會喜歡…</i>
+      <h5><strong>近期文章</strong></h5>
+      <p>Lorem ipsum dolor sit ame.</p>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
 
-        footer {
-          text-align: center;
-          background-color: #005a87;
-          color: white;
-          padding: 7px 12px;
-        }
-        p {
-            font-size: 16px;
-            width: auto;
-        }
-        </style>
-    </head>
-    <body>
-        <h2>日語教室</h2>
-        <div class="menubar">
-            <ul>
-                <li><a href="index">首頁</a></li>
-                <li><a href="">單字</a></li>
-                <li><a href="#">文法</a></li>
-                <li><a href="#">日語檢定</a></li>
-                <li><a href="#">音樂</a></li>
-                <li><a href="#">電影</a></li>
-                <li><a href="#">女優</a></li>
-                <li><a href="#">卡通</a></li>
-                <li><a href="https://momotaikumi.neocities.org/">桃田老師的日語教室</a></li>
-            </ul>
-        </div>
+  </div>
+</div>
 
-        <div>
-          <a href="#" style="color:black"><strong>常見的生活日語</strong></a>
-          <br>
-          <p>生活常見芋頭,花生等口味,知道日語要怎麼說嗎?</p>
-        </div>
-        <hr width="70%" align=left>
-        <div >
-          <a href="#" style="color:black"><strong>家庭每個成員的日語</strong></a>
-          <br>
-          <p>家庭的成員有爸爸,媽媽,哥哥,姊姊,弟弟,妹妹...等.知道每個成員的日語應該怎麼說嗎?</p>
-        </div>
-        <hr width="70%" align=left>
-        <div class="">
-          <a href="#" style="color:black"><strong>每根手指頭的日語</strong></a>
-          <br>
-          <p>想知道大拇指,食指,中指日語要怎麼說嗎?</p>
-        </div>
-        <hr width="70%" align=left>
-        <div class="">
-          <a href="#" style="color:black"><strong>身體各個器官的日語</strong></a>
-          <br>
-          <p>想知道頭髮,鼻子,耳朵...等的日語要怎麼說嗎?</p>
-        </div>
-        <hr width="70%" align=left>
-        <div class="">
-          <a href="#" style="color:black"><strong>各種交通工具的日語</strong></a>
-          <br>
-          <p>知道公車,計程車,機車...等交通工具的日語要怎麼說嗎?</p>
-        </div>
-        <hr width="70%" align=left>
-        <div class="">
-          <a href="#" style="color:black"><strong>各種商店的日語</strong></a>
-          <br>
-          <p>知道書店,花店,便利商店...等商店的日語要怎麼說嗎?</p>
-        </div>
-        <hr width="70%" align=left>
-        <div class="">
-          <a href="#" style="color:black"><strong>各種物品的日語</strong></a>
-          <br>
-          <p>知道燈,剪刀,刀片...等商店的日語要怎麼說嗎?</p>
-        </div>
-        <hr width="70%" align=left>
-        <div class="">
-          <a href="vocabulary/1.html" style="color:black"><strong>廚房物品的日語</strong></a>
-          <br>
-          <p>知道鍋子,鏟子,刀子...等廚房用品的日語要怎麼說嗎?</p>
-        </div>
-        <hr width="70%" align=left>
-        <div class="">
-          <img src="" alt="Picture Here" style="float: left; margin: 20px">
-          <a href="#" style="color:black"><strong>TODO</strong></a>
-          <br>
-          <p>TODOITEM</p>
-        </div>
-        <hr width="70%" align=left>
-        <div class="">
-          <ul>
-            <li><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
-            <li><a href="#">6</a></li>
-            <li><a href="#">7</a></li>
-            <li><a href="#">8</a></li>
-            <li><a href="#">9</a></li>
-            <li><a href="#">10</a></li>
-            <li><a href="#">>></a></li>
-          </ul>
-        </div>
-        <footer>
-          <p style="font-size:12px;">Copyright © Ray Kuo. All rights reserved.</p>
-        </footer>
-    </body>
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>Copyright © 2020 Ray Kuo. All rights reserved.</p>
+</div>
+
+</body>
 </html>
