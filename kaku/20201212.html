@@ -92,40 +92,51 @@
 <div class="container" style="margin-top:30px">
   <div class="row">
     <div class="col-sm-8">
-      <h4>不學一定會誤會的日文漢字</h4>
-      <h5>Dec 04, 2020 </h5>
+      <h4>那年,杉山友美子教我的日文</h4>
+      <h5>Dec 12, 2020 </h5>
       <div class="jumbotron bg-secondary text-white">
         <!-- <p> -->
           <font face="cursive">
-            猜一猜下面漢字的中文是什麼意思?
             <table class="table text-white">
               <tr>
-                <th>漢字</th>
+                <th>日文</th>
                 <th>中文</th>
               </tr>
               <tr>
-                <td><ruby><rb>豪州</rb><rt>ごうしゅう</rt></ruby></td>
-                <td class="div2 text-secondary">澳洲 オーストラリア</td>
+                <td>ドラえもん</td>
+                <td>小叮噹</td>
               </tr>
               <tr>
-                <td><ruby><rb>面白</rb><rt>おもしろ</rt></ruby>い</td>
-                <td class="div2 text-secondary">有趣的</td>
+                <td><ruby><rb>野比</rb><rt>のび</rt></ruby> のび<ruby><rb>太</rb><rt>た</rt></ruby></td>
+                <td>大雄</td>
               </tr>
               <tr>
-                <td><ruby><rb>娘</rb><rt>むすめ</rt></ruby>　</td>
-                <td class="div2 text-secondary">女兒</td>
+                <td>どこでもドア</td>
+                <td>任意門</td>
               </tr>
               <tr>
-                <td><ruby><rb>勉強</rb><rt>べんきょう</rt></ruby></td>
-                <td class="div2 text-secondary">念書</td>
+                <td>びっくりした</td>
+                <td>嚇一跳</td>
               </tr>
               <tr>
-                <td><ruby><rb>安</rb><rt>やす</rt></ruby>い</td>
-                <td class="div2 text-secondary">便宜</td>
+                <td>どういたしまして</td>
+                <td>不客氣</td>
               </tr>
               <tr>
-                <td><ruby><rb>床</rb><rt>ゆか</rt></ruby></td>
-                <td class="div2 text-secondary">地板</td>
+                <td>お<ruby><rb>腹</rb><rt>なか</rt></ruby>すいた</td>
+                <td>肚子餓</td>
+              </tr>
+              <tr>
+                <td>お<ruby><rb>腹</rb><rt>なか</rt></ruby>いっぱい</td>
+                <td>肚子很飽</td>
+              </tr>
+              <tr>
+                <td><ruby><rb>相撲</rb><rt>すも</rt></ruby></td>
+                <td>相撲</td>
+              </tr>
+              <tr>
+                <td>一緒に入る</td>
+                <td>一起進去</td>
               </tr>
             </table>
 
@@ -143,7 +154,6 @@
             </tr> -->
           </font>
         <!-- </p> -->
-        <button type="button" name="button" onclick="getAnswer()">答案</button>
       </div>
       <br>
     </div>
@@ -171,7 +181,7 @@
     <li class="page-item disabled"><a class="page-link" href="#">2</a></li>
     <li class="page-item disabled"><a class="page-link" href="#">3</a></li> -->
     <li class="page-item">
-      <a class="page-link" href="20201212.html">下一頁</a>
+      <a class="page-link" href="../index.html">首頁</a>
     </li>
   </ul>
 </nav>
@@ -179,23 +189,5 @@
 <div class="jumbotron text-center" style="margin-bottom:0">
   <p>Copyright © 2020 Free</p>
 </div>
-<script type="text/javascript">
-    var clicked = true;
-    function getAnswer(){
-      var elements = document.getElementsByClassName("div2");
-      for(var i = 0; i < elements.length; i++) {
-        if(clicked){
-          // elements[i].style.color = "text-secondary";
-          // elements[i].className += "text-secondary";
-          $('.div2').removeClass('text-secondary');
-        }else {
-          //elements[i].style.color = "blue";
-          //elements[i].className -= "text-white";
-          $('.div2').addClass('text-secondary');
-        }
-      };
-      clicked = !clicked;
-    }
-</script>
 </body>
 </html>
