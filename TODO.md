@@ -12,3 +12,9 @@ https://www.youtube.com/watch?v=bqj_XW59q88&feature=youtu.be
 # あかね的日本語教室
 ## 転職についてどう考えますか？
 https://www.youtube.com/watch?v=BFRiueFzdhw
+
+# 五十音 的片假名
+
+# 五十音的桃田日語改成桃田先生的日本語教室
+
+# 選單加上字典和翻譯
