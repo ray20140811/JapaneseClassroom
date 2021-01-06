@@ -102,7 +102,7 @@
             <div class="col-sm-8">
                 <h2>單字查詢</h2>
                 <br>
-                <input type="text" class="form-control" placeholder="輸入日文單字" name="text1" onchange="filterItems(this.value)">
+                <input type="text" class="form-control" placeholder="輸入日文單字" name="text1" onkeyup="filterItems(this.value)">
                 <p id='searchresult'></p>
                 <br>
             </div>
@@ -157,7 +157,7 @@
     </div>
 
     <script type="text/javascript">
-        
+
 
         function filterItems(query) {
             if (!query) {
