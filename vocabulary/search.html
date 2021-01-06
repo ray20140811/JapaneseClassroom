@@ -39,29 +39,26 @@
     </div>
 
     <nav class="navbar navbar-expand-sm bg-my-purple navbar-dark">
-        <a class="navbar-brand disabled" href="index.html">首頁</a>
+        <a class="navbar-brand disabled" href="../index.html">首頁</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="gojuon.html">五十音</a>
+                    <a class="nav-link" href="../gojuon.html">五十音</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="yuka/yuka-01.html">文法</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ツイッター(Twitter)</a>
+                    <a class="nav-link" href="../yuka/yuka-01.html">文法</a>
                 </li>
                 <!-- <li class="nav-item">
                   <a class="nav-link" href="#">日語檢定</a>
                 </li> -->
                 <li class="nav-item">
-                    <a class="nav-link" href="songs/songs.html">音樂</a>
+                    <a class="nav-link" href="../songs/songs.html">音樂</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="movie/loveletter.html">電影</a>
+                    <a class="nav-link" href="../movie/loveletter.html">電影</a>
                 </li>
                 <!-- <li class="nav-item">
                   <a class="nav-link" href="https://www.weblio.jp/" target="_blank">字典</a>
@@ -88,7 +85,7 @@
                 <a class="nav-link" href="#">遊戲</a>
                 </li> -->
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">關於</a>
+                    <a class="nav-link" href="../about.html">關於</a>
                 </li>
             </ul>
         </div>
@@ -113,22 +110,22 @@
                 <!-- <p>推薦文章</p> -->
                 <ul class="nav nav-pills flex-column">
                     <li class="nav-item">
-                        <a class="nav-link" href="momota.html">桃田先生の日本語教室</a>
+                        <a class="nav-link" href="../momota.html">桃田先生の日本語教室</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="kaku\20201204.html">かく的日語學習筆記</a>
+                        <a class="nav-link" href="../kaku/20201204.html">かく的日語學習筆記</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="jyoyuu\ueharaai\20201122.html">跟著あいちゃん學日語</a>
+                        <a class="nav-link" href="../jyoyuu/ueharaai/20201122.html">跟著あいちゃん學日語</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="comics\kimetsunoyaiba-01.html">音樂 - 鬼滅之刃主題曲 紅蓮華</a>
+                        <a class="nav-link" href="../comics/kimetsunoyaiba-01.html">音樂 - 鬼滅之刃主題曲 紅蓮華</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="songs\LiSA-01.html">音樂 - LiSA 紅蓮華</a>
+                        <a class="nav-link" href="../songs/LiSA-01.html">音樂 - LiSA 紅蓮華</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="movie\loveletter.html">電影 - 情書</a>
+                        <a class="nav-link" href="../movie/loveletter.html">電影 - 情書</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://www.youtube.com/channel/UC-E_8kLFq7ApatmXnyNORLA/featured" target="_blank">Yuka老師的日本語教室</a>
@@ -167,8 +164,18 @@
             var match = japanese.filter(function (el) {
                 //return el.toLowerCase().indexOf(query.toLowerCase()) > -1;
                 //return el.toLowerCase().startsWith(query.toLowerCase()) ;
-                return el.Japanese.startsWith(query);
-            })
+                //只能查日文
+                // return el.Japanese.startsWith(query) ;
+
+                //先查日文,再找漢字
+                if(el.Japanese.startsWith(query)){
+                    return true;
+                } else {
+                  if(el.Kanji) {
+                    return el.Kanji.startsWith(query)
+                  }
+                }
+            });
 
             var context = "";
             match.forEach((item, i) => {
