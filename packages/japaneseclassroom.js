@@ -11,7 +11,7 @@ const japanese = [
   { Japanese: 'あれ', Chinese: '那', Lesson: '2' },
   { Japanese: 'ありがとう', Kanji: '', Chinese: '謝謝', Lesson: '2' },
   { Japanese: 'アメリカ', Chinese: '美國', Lesson: '1' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // い
   { Japanese: 'いいえ', Chinese: '不,不是', Lesson: '1' },
   { Japanese: 'いしゃ', Kanji: '医者', Chinese: '醫生', Lesson: '1' },
@@ -19,21 +19,21 @@ const japanese = [
   { Japanese: 'イギリス', Chinese: '英國', Lesson: '1' },
   { Japanese: 'インド', Chinese: '印度', Lesson: '1' },
   { Japanese: 'インドネシア', Chinese: '印度尼西亞,印尼', Lesson: '1' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // う
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // え
   { Japanese: 'えいご', Kanji: '英語', Chinese: '英語', Lesson: '2' },
   { Japanese: 'えっ', Kanji: '', Chinese: '咦...', Lesson: '2' },
   { Japanese: 'えんぴつ', Kanji: '鉛筆', Chinese: '鉛筆', Lesson: '2' },
   { Japanese: 'エアー', Chinese: 'Air', Lesson: '1' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // お
   { Japanese: 'おいくつ', Chinese: '幾歲(「なんさい」的禮貌說法)', Lesson: '1' },
   { Japanese: 'おなまえは?', Kanji: 'お名前は？', Chinese: '您貴姓? 您叫什麼名字?', Lesson: '1' },
   { Japanese: 'おみやげ', Kanji: 'お土産', Chinese: '伴手禮,土產', Lesson: '2' },
   { Japanese: 'おせわになります', Kanji: 'お世話になります', Chinese: '承蒙您的照顧', Lesson: '2' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
 
 
 
@@ -49,17 +49,17 @@ const japanese = [
   { Japanese: 'かんこく', Kanji: '韓国', Chinese: '韓國', Lesson: '1' },
   { Japanese: 'カード', Kanji: 'card', Chinese: '卡片', Lesson: '2' },
   { Japanese: 'カメラ', Kanji: 'Camera', Chinese: '照相機', Lesson: '2' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // き
   { Japanese: 'きょうし', Kanji: '教師', Chinese: '教師', Lesson: '1' },
   { Japanese: 'ぎんこういん', Kanji: '銀行員', Chinese: '銀行行員', Lesson: '1' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // く
   { Japanese: 'くるま', Kanji: '車', Chinese: '汽車', Lesson: '2' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // け
   { Japanese: 'けんきゅうしゃ', Kanji: '研究者', Chinese: '研究人員', Lesson: '1' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // こ
   { Japanese: 'こうべ', Kanji: '神戸', Chinese: '神戶', Lesson: '1' },
   { Japanese: 'ここ', Kanji: '', Chinese: '這裡', Lesson: '3' },
@@ -72,7 +72,7 @@ const japanese = [
   { Japanese: 'ご', Kanji: '語', Chinese: '語', Lesson: '2' },
   { Japanese: 'コンピューター', Kanji: 'Computer', Chinese: '電腦', Lesson: '2' },
   { Japanese: 'コーヒー', Kanji: 'coffee', Chinese: '咖啡', Lesson: '2' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
 
 
 
@@ -83,7 +83,7 @@ const japanese = [
   { Japanese: 'さくら', Chinese: '櫻花', Lesson: '1' },
   { Japanese: 'ざっし', Kanji: '雑誌', Chinese: '雜誌', Lesson: '2' },
   { Japanese: 'さん', Chinese: '先生,小姐,女士', Lesson: '1' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // し
   { Japanese: 'しゃいん', Kanji: '社員', Chinese: '公司職員', Lesson: '1' },
   { Japanese: 'しつれいですが', Kanji: '失礼ですが', Chinese: '抱歉,請問...', Lesson: '1' },
@@ -92,12 +92,12 @@ const japanese = [
   { Japanese: 'じん', Chinese: '人', Lesson: '1', Kanji: '人' },
   { Japanese: 'シャープペンシル', Kanji: 'sharp pencil, mechanical pencil', Chinese: '自動鉛筆', Lesson: '2' },
   { Japanese: 'シーディー', Kanji: 'CD', Chinese: '光碟', Lesson: '2' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // す
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // せ
   { Japanese: 'せんせい', Kanji: '先生', Chinese: '老師', Lesson: '1' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // そ
   { Japanese: 'そう', Kanji: '', Chinese: '是的', Lesson: '2' },
   { Japanese: 'そうですか', Kanji: '', Chinese: '這樣啊', Lesson: '2' },
@@ -105,7 +105,7 @@ const japanese = [
   { Japanese: 'そちら', Kanji: '', Chinese: '那邊(「そこ」的禮貌用法)', Lesson: '3' },
   { Japanese: 'それ', Kanji: '', Chinese: '那', Lesson: '2' },
   { Japanese: 'その', Kanji: '', Chinese: '那個', Lesson: '2' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
 
 
 
@@ -115,20 +115,20 @@ const japanese = [
   { Japanese: 'だいがく', Kanji: '大学', Chinese: '大學', Lesson: '1' },
   { Japanese: 'だれ', Kanji: '誰', Chinese: '誰', Lesson: '1' },
   { Japanese: 'タイ', Chinese: '泰國', Lesson: '1' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // ち
   { Japanese: 'ちがいます', Kanji: '違います', Chinese: '不是', Lesson: '2' },
   { Japanese: 'ちゃん', Chinese: '接在小孩子名字後面', Lesson: '1' },
   { Japanese: 'ちゅうごく', Kanji: '中国', Chinese: '中國', Lesson: '1' },
   { Japanese: 'チョコレート', Kanji: 'chocolate', Chinese: '巧克力', Lesson: '2' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // つ
   { Japanese: 'つくえ', Kanji: '机', Chinese: '桌子', Lesson: '2' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // て
   { Japanese: 'てちょう', Kanji: '手帳', Chinese: '記事本', Lesson: '2' },
   { Japanese: 'テレビ', Kanji: 'TV', Chinese: '電視', Lesson: '2' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // と
   { Japanese: 'とけい', Kanji: '時計', Chinese: '鐘錶', Lesson: '2' },
   { Japanese: 'どうぞ', Chinese: '請', Lesson: '1' },
@@ -136,7 +136,7 @@ const japanese = [
   { Japanese: 'どこ', Kanji: '', Chinese: '哪裡', Lesson: '3' },
   { Japanese: 'どなた', Chinese: '誰（「だれ」的禮貌說法）', Lesson: '1' },
   { Japanese: 'ドイツ', Chinese: '德國', Lesson: '1' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
 
 
 
@@ -146,18 +146,18 @@ const japanese = [
   { Japanese: 'なまえ', Kanji: '名前', Chinese: '名字', Lesson: '1' },
   { Japanese: 'なん', Kanji: '何', Chinese: '什麼', Lesson: '2' },
   { Japanese: 'なんさい', Kanji: '何歳', Chinese: '幾歲', Lesson: '1' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // に
   { Japanese: 'にほん', Kanji: '日本', Chinese: '日本', Lesson: '1' },
   { Japanese: 'にほんご', Kanji: '日本語', Chinese: '日語', Lesson: '2' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // ぬ
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // ね
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // の
   { Japanese: 'ノート', Kanji: 'note', Chinese: '筆記本', Lesson: '2' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
 
 
 
@@ -166,64 +166,60 @@ const japanese = [
   // は
   { Japanese: 'はい', Chinese: '是,對', Lesson: '1' },
   { Japanese: 'はじめまして', Chinese: '初次見面', Lesson: '1' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // ひ
   { Japanese: 'びょういん', Kanji: '病院', Chinese: '醫院', Lesson: '1' },
   // ふ
   { Japanese: 'ふじ', Kanji: '富士', Chinese: '富士', Lesson: '1' },
   { Japanese: 'ブラジル', Chinese: '巴西', Lesson: '1' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // へ
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // ほ
   { Japanese: 'ほん', Kanji: '本', Chinese: '書', Lesson: '2' },
   { Japanese: 'ボールペン', Kanji: 'ball pen', Chinese: '原子筆', Lesson: '2' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
 
 
 
 
 
   // ま
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // み
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // む
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // め
   { Japanese: 'めいし', Kanji: '名刺', Chinese: '名片', Lesson: '2' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // も
-  { Japanese: 'もじ', Chinese: '文字', Lesson: '' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: 'もじ', Chinese: '文字', Lesson: '', Example:'' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
 
 
 
 
 
   // や
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // ゆ
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // よ
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
-
-
-
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
 
 
 
   // ら
   { Japanese: 'ラジオ', Kanji: 'radio', Chinese: '收音機', Lesson: '2' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
   // り
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // る
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // れ
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // ろ
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
 
 
 
@@ -232,11 +228,11 @@ const japanese = [
 
   // わ
   { Japanese: 'わたし', Kanji: '私', Chinese: '我', Lesson: '1' },
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // を
-  { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
   // ん
-  { Japanese: 'ん', Chinese: '', Lesson: '' },
+  { Japanese: 'ん', Chinese: '', Lesson: '', Example:'' },
 
 
 
@@ -261,130 +257,131 @@ const japanese = [
     //えんばしら　炎柱
     //みずばしら　水柱
     // あ
-    { Japanese: 'あい', Kanji: '愛', Chinese: '愛',  Lesson: '' },
-    { Japanese: 'あおい', Kanji: '青い', Chinese: '藍色的', Lesson: '' },
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: 'あい', Kanji: '愛', Chinese: '愛',  Lesson: '', Example:'' },
+    { Japanese: 'あおい', Kanji: '青い', Chinese: '藍色的', Lesson: '', Example:'' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // い
-    { Japanese: 'いえ', Kanji: '家', Chinese: '房子', Lesson: '' },
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: 'いえ', Kanji: '家', Chinese: '房子', Lesson: '', Example:'' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // う
-    { Japanese: 'うえ', Kanji: '上', Chinese: '上', Lesson: '' },
-    { Japanese: 'うそ', Kanji: '噓', Chinese: '謊言', Lesson: '' },
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: 'うえ', Kanji: '上', Chinese: '上', Lesson: '', Example:'' },
+    { Japanese: 'うそ', Kanji: '噓', Chinese: '謊言', Lesson: '', Example:'' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // え
-    { Japanese: 'えんばしら', Kanji: '炎柱', Chinese: '炎柱',  Lesson: '' },
-    { Japanese: 'えき', Kanji: '駅', Chinese: '車站', Lesson: '' },
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: 'えんばしら', Kanji: '炎柱', Chinese: '炎柱',  Lesson: '', Example:'' },
+    { Japanese: 'えき', Kanji: '駅', Chinese: '車站', Lesson: '', Example:'' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // お
-    { Japanese: 'おたく', Kanji: '御宅、お宅、オタク', Chinese: '流行文化愛好者,作為對漫畫、動畫、電玩等，嗜好性強的興趣或玩具愛好者的一部分第二人稱', Lesson: '' },
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: 'おたく', Kanji: '御宅、お宅、オタク', Chinese: '流行文化愛好者,作為對漫畫、動畫、電玩等，嗜好性強的興趣或玩具愛好者的一部分第二人稱', Lesson: '', Example:'' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // か
-    { Japanese: 'かお', Kanji: '顔', Chinese: '臉', Lesson: '' },
-    { Japanese: 'かさ', Kanji: '傘', Chinese: '傘', Lesson: '' },
-    { Japanese: 'カテゴリー', Kanji: 'category', Chinese: '類別', Lesson: '' },
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: 'かお', Kanji: '顔', Chinese: '臉', Lesson: '', Example:'' },
+    { Japanese: 'かさ', Kanji: '傘', Chinese: '傘', Lesson: '', Example:'' },
+    { Japanese: 'カテゴリー', Kanji: 'category', Chinese: '類別', Lesson: '', Example:'' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // き
-    { Japanese: 'き', Kanji: '木', Chinese: '樹', Lesson: '' },
-    { Japanese: 'き', Kanji: '鬼', Chinese: '鬼', Lesson: '' },
-    { Japanese: 'きさつたい', Kanji: '鬼殺隊', Chinese: '鬼殺隊', Lesson: '' },
-    { Japanese: 'きとうあかり', Kanji: '鬼頭明里', Chinese: '鬼頭明里(鬼滅之刃聲優-禰豆子)', Lesson: '' },
-    { Japanese: 'きめつのやいば', Kanji: '鬼滅の刃', Chinese: '鬼滅之刃(漫畫名)', Lesson: '' },
-    { Japanese: 'きょうじゅろう', Kanji: '杏寿郎', Chinese: '杏壽郎', Lesson: '' },
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: 'き', Kanji: '木', Chinese: '樹', Lesson: '', Example:'' },
+    { Japanese: 'き', Kanji: '鬼', Chinese: '鬼', Lesson: '', Example:'' },
+    { Japanese: 'きさつたい', Kanji: '鬼殺隊', Chinese: '鬼殺隊', Lesson: '', Example:'' },
+    { Japanese: 'きとうあかり', Kanji: '鬼頭明里', Chinese: '鬼頭明里(鬼滅之刃聲優-禰豆子)', Lesson: '', Example:'' },
+    { Japanese: 'きめつのやいば', Kanji: '鬼滅の刃', Chinese: '鬼滅之刃(漫畫名)', Lesson: '', Example:'' },
+    { Japanese: 'きょうじゅろう', Kanji: '杏寿郎', Chinese: '杏壽郎', Lesson: '', Example:'' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // く
-    { Japanese: 'くさ', Kanji: '草', Chinese: '草', Lesson: '' },
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: 'くさ', Kanji: '草', Chinese: '草', Lesson: '', Example:'' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // け
-    { Japanese: 'けさ', Kanji: '今朝', Chinese: '今天早上', Lesson: '' },
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: 'けさ', Kanji: '今朝', Chinese: '今天早上', Lesson: '', Example:'' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // こ
-    { Japanese: 'こえ', Kanji: '声', Chinese: '聲音', Lesson: '' },
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: 'こえ', Kanji: '声', Chinese: '聲音', Lesson: '', Example:'' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // さ
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // し
-    { Japanese: 'しお', Kanji: '塩', Chinese: '鹽', Lesson: '' },
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: 'しお', Kanji: '塩', Chinese: '鹽', Lesson: '', Example:'' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // す
-    { Japanese: 'すし', Kanji: '寿司', Chinese: '壽司', Lesson: '' },
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: 'すし', Kanji: '寿司', Chinese: '壽司', Lesson: '', Example:'' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // せ
-    { Japanese: 'せかい', Kanji: '世界', Chinese: '世界', Lesson: '' },
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: 'せかい', Kanji: '世界', Chinese: '世界', Lesson: '', Example:'' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // そ
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // た
-    { Japanese: 'データログ', Kanji: 'data log', Chinese: '', Lesson: '' },
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: 'データログ', Kanji: 'data log', Chinese: '', Lesson: '', Example:'' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // ち
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // つ
-    { Japanese: 'ツイッター', Kanji: 'Twitter', Chinese: '推特', Lesson: '' },
+    { Japanese: 'ツイッター', Kanji: 'Twitter', Chinese: '推特', Lesson: '', Example:'' },
     // て
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // と
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // な
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // に
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // ぬ
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // ね
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // の
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // は
-    { Japanese: 'はしら', Kanji: '柱', Chinese: '柱', Lesson: '' },
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: 'はしら', Kanji: '柱', Chinese: '柱', Lesson: '', Example:'' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // ひ
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // ふ
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // へ
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // ほ
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // ま
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // み
-    { Japanese: 'みず', Kanji: '水', Chinese: '水', Lesson: '' },
-    { Japanese: 'みずばしら', Kanji: '水柱', Chinese: '水柱', Lesson: '' },
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: 'みず', Kanji: '水', Chinese: '水', Lesson: '', Example:'' },
+    { Japanese: 'みずばしら', Kanji: '水柱', Chinese: '水柱', Lesson: '', Example:'' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // む
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // め
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // も
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // や
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // ゆ
-    { Japanese: 'ユーザーネーム', Kanji: 'User Name', Chinese: '用戶名', Lesson: '' },
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: 'ユーザーネーム', Kanji: 'User Name', Chinese: '用戶名', Lesson: '', Example:'' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // よ
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // ら
-    { Japanese: 'れんごく', Kanji: '煉獄', Chinese: '煉獄', Lesson: '' },
-    { Japanese: 'れんごくきょうじゅろう', Kanji: '煉獄杏寿郎', Chinese: '煉獄杏壽郎', Lesson: '' },
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // り
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // る
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // れ
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: 'れんごく', Kanji: '煉獄', Chinese: '煉獄', Lesson: '', Example:'' },
+    { Japanese: 'れんごくきょうじゅろう', Kanji: '煉獄杏寿郎', Chinese: '煉獄杏壽郎', Lesson: '', Example:'' },
+    { Japanese: 'れんらくさき', Kanji: '連絡先', Chinese: '聯絡資訊', Lesson: '', Example:'ご連絡先を教えて下さい。 請告訴我你的聯絡方式。' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // ろ
-    { Japanese: 'ログ', Kanji: 'log', Chinese: '記錄', Lesson: '' },
-    { Japanese: 'ログアウト', Kanji: 'logout', Chinese: '登出', Lesson: '' },
-    { Japanese: 'ログイン', Kanji: 'login', Chinese: '登入', Lesson: '' },
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: 'ログ', Kanji: 'log', Chinese: '記錄', Lesson: '', Example:'' },
+    { Japanese: 'ログアウト', Kanji: 'logout', Chinese: '登出', Lesson: '', Example:'' },
+    { Japanese: 'ログイン', Kanji: 'login', Chinese: '登入', Lesson: '', Example:'' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // わ
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // を
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // ん
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '' }
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' }
 ];
 
 
@@ -438,5 +435,5 @@ var today = new Date();
 function displayDate() {
     document.getElementById('today').innerHTML = "<ruby><rb>" + month1[today.getMonth()] + "</rb><rt>" + month2[today.getMonth()] +"</rt></ruby> &nbsp &nbsp"
     + "<ruby><rb>" + dates1[today.getDate()-1]  + "</rb><rt>"+ dates2[today.getDate()-1] +"</rt></ruby>" + "&nbsp &nbsp"
-    + "<ruby><rb>" + weekday1[today.getDay()]  + "</rb><rt>"+ weekday2[today.getDay()] +"</rt></ruby>";    
+    + "<ruby><rb>" + weekday1[today.getDay()]  + "</rb><rt>"+ weekday2[today.getDay()] +"</rt></ruby>";
 }
