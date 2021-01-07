@@ -179,6 +179,7 @@ const japanese = [
   { Japanese: 'ほん', Kanji: '本', Chinese: '書', Lesson: '2' },
   { Japanese: 'ボールペン', Kanji: 'ball pen', Chinese: '原子筆', Lesson: '2' },
   { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
+  { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
 
 
 
@@ -262,9 +263,11 @@ const japanese = [
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // い
     { Japanese: 'いえ', Kanji: '家', Chinese: '房子', Lesson: '', Example:'' },
+    { Japanese: 'いちのかた', Kanji: '壱の型', Chinese: '壹之型(漫畫鬼滅之刃第一型)', Lesson: '', Example:'' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // う
     { Japanese: 'うえ', Kanji: '上', Chinese: '上', Lesson: '', Example:'' },
+    { Japanese: 'うえはらあい', Kanji: '上原亜衣', Chinese: '上原亞衣(日本女演員)', Lesson: '', Example:'' },
     { Japanese: 'うそ', Kanji: '噓', Chinese: '謊言', Lesson: '', Example:'' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // え
@@ -277,6 +280,7 @@ const japanese = [
     // か
     { Japanese: 'かお', Kanji: '顔', Chinese: '臉', Lesson: '', Example:'' },
     { Japanese: 'かさ', Kanji: '傘', Chinese: '傘', Lesson: '', Example:'' },
+    { Japanese: 'かまどねずこ', Kanji: '竈門禰豆子', Chinese: '竈門禰豆子(漫畫鬼滅之刃人物之一)', Lesson: '', Example:'' },
     { Japanese: 'カテゴリー', Kanji: 'category', Chinese: '類別', Lesson: '', Example:'' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // き
@@ -305,8 +309,9 @@ const japanese = [
     { Japanese: 'すし', Kanji: '寿司', Chinese: '壽司', Lesson: '', Example:'' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // せ
+    { Japanese: 'せいゆう', Kanji: '声優', Chinese: '配音員', Lesson: '', Example:'私の夢は声優になることです。我的夢想是成為配音員' },
     { Japanese: 'せかい', Kanji: '世界', Chinese: '世界', Lesson: '', Example:'' },
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
+    { Japanese: 'ぜんしゅうちゅう', Kanji: '全集中', Chinese: '全集中', Lesson: '', Example:'' },
     // そ
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // た
@@ -327,6 +332,7 @@ const japanese = [
     // ぬ
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // ね
+    { Japanese: 'ねずこ', Kanji: '禰豆子', Chinese: '禰豆子(漫畫鬼滅之刃人物之一)', Lesson: '', Example:'' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // の
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
@@ -340,18 +346,22 @@ const japanese = [
     // へ
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // ほ
+    { Japanese: 'ほむら', Kanji: '炎', Chinese: '火焰', Lesson: '', Example:'' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // ま
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // み
     { Japanese: 'みず', Kanji: '水', Chinese: '水', Lesson: '', Example:'' },
-    { Japanese: 'みずばしら', Kanji: '水柱', Chinese: '水柱', Lesson: '', Example:'' },
+    { Japanese: 'みずのあさひ', Kanji: '水野朝陽', Chinese: '水野朝陽(日本女演員)', Lesson: '', Example:'' },
+    { Japanese: 'みずのこきゅ', Kanji: '水の呼吸', Chinese: '水之呼吸(漫畫鬼滅之刃水派系呼吸法)', Lesson: '', Example:'' },
+    { Japanese: 'みずばしら', Kanji: '水柱', Chinese: '水柱(漫畫鬼滅之刃鬼殺隊最高等級的角色稱為柱.)', Lesson: '', Example:'' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // む
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // め
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // も
+    { Japanese: 'もりなな', Kanji: '森七菜', Chinese: '森七菜(日本女演員)', Lesson: '', Example:'' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // や
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
