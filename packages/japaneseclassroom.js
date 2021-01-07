@@ -286,8 +286,10 @@ const japanese = [
     // き
     { Japanese: 'き', Kanji: '木', Chinese: '樹', Lesson: '' },
     { Japanese: 'き', Kanji: '鬼', Chinese: '鬼', Lesson: '' },
-    { Japanese: 'きょうじゅろう', Kanji: '杏寿郎', Chinese: '杏壽郎', Lesson: '' },
     { Japanese: 'きさつたい', Kanji: '鬼殺隊', Chinese: '鬼殺隊', Lesson: '' },
+    { Japanese: 'きとうあかり', Kanji: '鬼頭明里', Chinese: '鬼頭明里(鬼滅之刃聲優-禰豆子)', Lesson: '' },
+    { Japanese: 'きめつのやいば', Kanji: '鬼滅の刃', Chinese: '鬼滅之刃(漫畫名)', Lesson: '' },
+    { Japanese: 'きょうじゅろう', Kanji: '杏寿郎', Chinese: '杏壽郎', Lesson: '' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '' },
     // く
     { Japanese: 'くさ', Kanji: '草', Chinese: '草', Lesson: '' },
@@ -384,3 +386,57 @@ const japanese = [
     // ん
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '' }
 ];
+
+
+function filterItems(query) {
+    if (!query) {
+        document.getElementById('searchresult').innerHTML = "";
+        return;
+    }
+    var match = japanese.filter(function (el) {
+        //return el.toLowerCase().indexOf(query.toLowerCase()) > -1;
+        //return el.toLowerCase().startsWith(query.toLowerCase()) ;
+        //只能查日文
+        // return el.Japanese.startsWith(query) ;
+
+        //先查日文,再找漢字
+        if(el.Japanese.startsWith(query)){
+            return true;
+        } else {
+          if(el.Kanji) {
+            return el.Kanji.startsWith(query)
+          }
+        }
+    });
+
+    var context = "";
+    match.forEach((item, i) => {
+        if (item.Kanji) {
+            context += "<br>" + item.Japanese + "<br>" + "<strong>" + item.Kanji + "</strong>" + " 中文: " + item.Chinese + "<br>";
+        } else {
+            context += "<br>" + item.Japanese + "<br>" + " 中文: " + item.Chinese + "<br>";
+        }
+    });
+
+    document.getElementById('searchresult').innerHTML = context;
+}
+
+
+var month1 = ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"]
+var month2 = ["いちがつ", "にがつ", "さんがつ", "しがつ", "ごがつ", "ろくがつ", "しちがつ", "はちがつ", "くがつ", "じゅうがつ", "じゅういちがつ", "じゅうにがつ"];
+var dates1 = ["1日", "2日", "3日", "4日", "5日", "6日", "7日", "8日", "9日", "10日", "11日", "12日", "13日", "14日", "15日", "16日", "17日", "18日", "19日", "20日",
+"21日", "22日", "23日", "24日", "25日", "26日", "27日", "28日", "29日", "30日", "31日"];
+var dates2 = ["ついたち", "ふつか", "みっか", "よっか", "いつか", "むいか", "なのか", "ようか", "ここのか", "とおか",
+"じゅういちにち", "じゅうににち", "じゅうさんにち", "じゅうよっか", "じゅうごにち", "じゅうろくにち", "じゅうしちにち", "じゅうはちにち", "じゅうくにち", "はつか",
+"にじゅういちにち", "にじゅうににち", "にじゅうさんにち", "にじゅうよっか", "にじゅうごにち", "にじゅうろくにち", "にじゅうしちにち", "にじゅうはちにち", "にじゅうくにち", "さんじゅうにち", "さんじゅういちにち"];
+
+var weekday1 = ["日曜日", "月曜日", "火曜日", "水曜日", "木曜日", "金曜日", "土曜日"];
+var weekday2 = ["にちようび", "げつようび", "かようび", "すいようび", "もくようび", "きんようび", "どようび"];
+
+var today = new Date();
+
+function displayDate() {
+    document.getElementById('today').innerHTML = "<ruby><rb>" + month1[today.getMonth()] + "</rb><rt>" + month2[today.getMonth()] +"</rt></ruby> &nbsp &nbsp"
+    + "<ruby><rb>" + dates1[today.getDate()-1]  + "</rb><rt>"+ dates2[today.getDate()-1] +"</rt></ruby>" + "&nbsp &nbsp"
+    + "<ruby><rb>" + weekday1[today.getDay()]  + "</rb><rt>"+ weekday2[today.getDay()] +"</rt></ruby>";    
+}
