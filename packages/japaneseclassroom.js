@@ -260,22 +260,26 @@ const japanese = [
     // あ
     { Japanese: 'あい', Kanji: '愛', Chinese: '愛',  Lesson: '', Example:'' },
     { Japanese: 'あおい', Kanji: '青い', Chinese: '藍色的', Lesson: '', Example:'' },
+    { Japanese: 'あんない', Kanji: '案内', Chinese: '引導，嚮導；導遊，陪同遊覽', Lesson: '', Example:'お客をせきへ案内する／為顧客帶位。' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // い
     { Japanese: 'いえ', Kanji: '家', Chinese: '房子', Lesson: '', Example:'' },
     { Japanese: 'いちのかた', Kanji: '壱の型', Chinese: '壹之型(漫畫鬼滅之刃第一型)', Lesson: '', Example:'' },
+    { Japanese: 'イベント', Kanji: 'event', Chinese: '事件', Lesson: '', Example:'' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // う
     { Japanese: 'うえ', Kanji: '上', Chinese: '上', Lesson: '', Example:'' },
     { Japanese: 'うえはらあい', Kanji: '上原亜衣', Chinese: '上原亞衣(日本女演員)', Lesson: '', Example:'' },
     { Japanese: 'うそ', Kanji: '噓', Chinese: '謊言', Lesson: '', Example:'' },
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
+    { Japanese: 'うけつけます', Kanji: '受け付けます', Chinese: '受理', Lesson: '', Example:'よやくをうけつけます／受理預約' },
+    { Japanese: 'うけます', Kanji: '受けます', Chinese: '受理', Lesson: '', Example:'オーダーを受けます／受理點餐' },
     // え
     { Japanese: 'えんばしら', Kanji: '炎柱', Chinese: '炎柱',  Lesson: '', Example:'' },
     { Japanese: 'えき', Kanji: '駅', Chinese: '車站', Lesson: '', Example:'' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // お
     { Japanese: 'おたく', Kanji: '御宅、お宅、オタク', Chinese: '流行文化愛好者,作為對漫畫、動畫、電玩等，嗜好性強的興趣或玩具愛好者的一部分第二人稱', Lesson: '', Example:'' },
+    { Japanese: 'オーダー', Kanji: 'order', Chinese: '訂購,訂貨', Lesson: '', Example:'オーダーを受けます／受理點餐' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // か
     { Japanese: 'かお', Kanji: '顔', Chinese: '臉', Lesson: '', Example:'' },
@@ -304,28 +308,37 @@ const japanese = [
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // し
     { Japanese: 'しお', Kanji: '塩', Chinese: '鹽', Lesson: '', Example:'' },
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
+    { Japanese: 'しょくざい', Kanji: '食材', Chinese: '食材', Lesson: '', Example:'' },
+    { Japanese: 'じゅんびする', Kanji: '準備する', Chinese: '準備', Lesson: '', Example:'しょくざいをじゅんびします／備料' },
+    { Japanese: 'じゅんびします', Kanji: '準備します', Chinese: '準備', Lesson: '', Example:'しょくざいをじゅんびします／備料' },
     // す
     { Japanese: 'すし', Kanji: '寿司', Chinese: '壽司', Lesson: '', Example:'' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // せ
-    { Japanese: 'せいゆう', Kanji: '声優', Chinese: '配音員', Lesson: '', Example:'私の夢は声優になることです。我的夢想是成為配音員' },
+    { Japanese: 'せいゆう', Kanji: '声優', Chinese: '配音員', Lesson: '', Example:'私の夢は声優になることです／我的夢想是成為配音員' },
     { Japanese: 'せかい', Kanji: '世界', Chinese: '世界', Lesson: '', Example:'' },
     { Japanese: 'ぜんしゅうちゅう', Kanji: '全集中', Chinese: '全集中', Lesson: '', Example:'' },
+    { Japanese: 'せき', Kanji: '席', Chinese: '位子', Lesson: '', Example:'' },
     // そ
+    { Japanese: 'そうじする', Kanji: '掃除する', Chinese: '打掃', Lesson: '', Example:'' },
+    { Japanese: 'そうじします', Kanji: '掃除します', Chinese: '打掃', Lesson: '', Example:'てんないをそうじします／打掃店內' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // た
     { Japanese: 'データログ', Kanji: 'data log', Chinese: '', Lesson: '', Example:'' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // ち
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // つ
+    { Japanese: 'つくります', Kanji: '作ります', Chinese: '製作', Lesson: '', Example:'' },
     { Japanese: 'ツイッター', Kanji: 'Twitter', Chinese: '推特', Lesson: '', Example:'' },
     // て
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // と
+    { Japanese: 'ととのえる', Kanji: '整える', Chinese: '整理', Lesson: '', Example:'身なりを整えます／整理服裝儀容' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // な
+    { Japanese: 'ない', Kanji: '内', Chinese: '內', Lesson: '', Example:'' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // に
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
@@ -355,6 +368,8 @@ const japanese = [
     { Japanese: 'みずのあさひ', Kanji: '水野朝陽', Chinese: '水野朝陽(日本女演員)', Lesson: '', Example:'' },
     { Japanese: 'みずのこきゅ', Kanji: '水の呼吸', Chinese: '水之呼吸(漫畫鬼滅之刃水派系呼吸法)', Lesson: '', Example:'' },
     { Japanese: 'みずばしら', Kanji: '水柱', Chinese: '水柱(漫畫鬼滅之刃鬼殺隊最高等級的角色稱為柱.)', Lesson: '', Example:'' },
+    { Japanese: 'みなり', Kanji: '身なり', Chinese: '服飾,服裝,打扮', Lesson: '', Example:'身なりを整えます。整理服裝儀容' },
+    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // む
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
@@ -364,7 +379,7 @@ const japanese = [
     { Japanese: 'もりなな', Kanji: '森七菜', Chinese: '森七菜(日本女演員)', Lesson: '', Example:'' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // や
-    { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
+    { Japanese: 'よやく', Kanji: '予約', Chinese: '預約', Lesson: '', Example:'よやくをうけつけます' },
     // ゆ
     { Japanese: 'ユーザーネーム', Kanji: 'User Name', Chinese: '用戶名', Lesson: '', Example:'' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
@@ -387,6 +402,7 @@ const japanese = [
     { Japanese: 'ログイン', Kanji: 'login', Chinese: '登入', Lesson: '', Example:'' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // わ
+    { Japanese: 'わく', Kanji: '枠', Chinese: '框，框子。边线，轮廓。〈建〉护板，镶板，模子。', Lesson: '', Example:'' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // を
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
