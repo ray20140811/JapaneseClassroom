@@ -292,8 +292,10 @@ const japanese = [
     { Japanese: 'き', Kanji: '鬼', Chinese: '鬼', Lesson: '', Example:'' },
     { Japanese: 'きさつたい', Kanji: '鬼殺隊', Chinese: '鬼殺隊', Lesson: '', Example:'' },
     { Japanese: 'きとうあかり', Kanji: '鬼頭明里', Chinese: '鬼頭明里(鬼滅之刃聲優-禰豆子)', Lesson: '', Example:'' },
-    { Japanese: 'きめつのやいば', Kanji: '鬼滅の刃', Chinese: '鬼滅之刃(漫畫名)', Lesson: '', Example:'' },
-    { Japanese: 'きょうじゅろう', Kanji: '杏寿郎', Chinese: '杏壽郎', Lesson: '', Example:'' },
+
+    { Japanese: 'きめつのやいば', Kanji: '鬼滅の刃', Chinese: '鬼滅之刃(漫畫名)', Lesson: '', Example:'', Pic:'kimetsunoyaiba-01.jpg', PicWidth: 237, PicHeight: 237, Audio:"" },
+    { Japanese: 'きょうじゅろう', Kanji: '杏寿郎', Chinese: '杏壽郎', Lesson: '', Example:'', Pic:'kyujyurou-01.jpg', PicWidth: 237, PicHeight: 237, Audio:"" },
+
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // く
     { Japanese: 'くさ', Kanji: '草', Chinese: '草', Lesson: '', Example:'' },
@@ -345,7 +347,7 @@ const japanese = [
     // ぬ
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // ね
-    { Japanese: 'ねずこ', Kanji: '禰豆子', Chinese: '禰豆子(漫畫鬼滅之刃人物之一)', Lesson: '', Example:'' },
+    { Japanese: 'ねずこ', Kanji: '禰豆子', Chinese: '禰豆子(漫畫鬼滅之刃人物之一)', Lesson: '', Example:'', Pic:'nezuko-01.jpg', PicWidth: 237, PicHeight: 237, Audio:"" },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // の
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
@@ -434,11 +436,25 @@ function filterItems(query) {
 
     var context = "";
     match.forEach((item, i) => {
+
+        if(item.Pic) {
+          //context +=  "<img src='images/nezuko-01.jpg'　width='200' height='200'>";PicWidth
+            context +=  "<br><img src='images/" + item.Pic + 　"'width='" + item.PicWidth + "height='" + item.PicHeight +"'>";
+        }
+
+        if(item.Audio) {
+          //context +=  "<img src='images/nezuko-01.jpg'　width='200' height='200'>";PicWidth
+            context += "<br>" + '<audio controls><source src="audio/nezuko-01.mp3" type="audio/mpeg"></audio>';
+        }
+
         if (item.Kanji) {
             context += "<br>" + item.Japanese + "<br>" + "<strong>" + item.Kanji + "</strong>" + " 中文: " + item.Chinese + "<br>";
         } else {
             context += "<br>" + item.Japanese + "<br>" + " 中文: " + item.Chinese + "<br>";
         }
+
+        context += '<hr style=" height:2px;border:none;border-top:2px ridge white;" >';
+
     });
 
     document.getElementById('searchresult').innerHTML = context;
