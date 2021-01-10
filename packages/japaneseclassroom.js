@@ -284,7 +284,8 @@ const japanese = [
     // か
     { Japanese: 'かお', Kanji: '顔', Chinese: '臉', Lesson: '', Example:'' },
     { Japanese: 'かさ', Kanji: '傘', Chinese: '傘', Lesson: '', Example:'' },
-    { Japanese: 'かまどねずこ', Kanji: '竈門禰豆子', Chinese: '竈門禰豆子(漫畫鬼滅之刃人物之一)', Lesson: '', Example:'' },
+    { Japanese: 'かまどねずこ', Kanji: '竈門禰豆子', Chinese: '竈門禰豆子(漫畫鬼滅之刃人物之一)', Lesson: '', Example:'', Pic:'nezuko-02.jpg', PicWidth: 237, PicHeight: 237, Audio:"" },
+    { Japanese: 'かまどたんじろう', Kanji: '竈門炭治郎', Chinese: '竈門炭治郎(漫畫鬼滅之刃人物主角)', Lesson: '', Example:'', Pic:'tanjirou-01.jpg', PicWidth: 237, PicHeight: 237, Audio:"" },
     { Japanese: 'カテゴリー', Kanji: 'category', Chinese: '類別', Lesson: '', Example:'' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // き
@@ -326,6 +327,7 @@ const japanese = [
     { Japanese: 'そうじします', Kanji: '掃除します', Chinese: '打掃', Lesson: '', Example:'てんないをそうじします／打掃店內' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // た
+    { Japanese: 'たんじろう', Kanji: '炭治郎', Chinese: '炭治郎(漫畫鬼滅之刃人物主角)', Lesson: '', Example:'', Pic:'tanjirou-01.jfif', PicWidth: 237, PicHeight: 237, Audio:"" },
     { Japanese: 'データログ', Kanji: 'data log', Chinese: '', Lesson: '', Example:'' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
