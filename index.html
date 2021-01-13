@@ -92,6 +92,13 @@
                     <p class="card-text">LiSA最新單曲</p>
                 </div>
             </div>
+            <!-- <div class="col-sm-4">
+                <div class="jumbotron card-body">
+                    <a href="#">1</a><hr>
+                    <a href="#">2</a><hr>
+                    <a href="#">3</a><hr>
+                </div>
+            </div> -->
         </div>
         <div class="row">
             <div class="col-sm-4">
@@ -135,28 +142,15 @@
         </div>
     </div>
 
-    <div class="container" style="margin-top:30px">
+    <div class="container-fluid" style="margin-top:30px">
         <h4><strong>每週單字</strong></h4>
         <hr style=" height:2px;border:none;border-top:2px ridge #185598;" >
         <div class="row">
             <div class="col-sm-12">
                 <div class="jumbotron fakeimg">
-                    <h5 class="card-title"></h5>
-                    <p>
-                        ゲトゥ 「get」 <br>
-                        ゲットした 「I got it」 <br>
-                        どーん！「Boom！」<br>
-                        どーーーーん！「Boooooom！」<br>
-                        むらさき (紫) <br>
-                        パープル (purple)  <br>
-                        および  <br>
-                        お及び (and)  <br>
-                        お呼び (call) <br>
-                        並びに (line up)<br>
-                        並べ<br>
-                        ならべ<br>
-                        ニューシングル  (new single) <br>
-                    </p>
+                    <table class="table" id="tbody1">
+
+                    </table>
                 </div>
             </div>
         </div>
@@ -205,6 +199,16 @@
                 <div class="jumbotron fakeimg">
                     <!-- <img src="images\kimetsunoyaiba-01.png" alt="" class="img-thumbnail"> -->
                     <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://www.youtube.com/embed/cXITqgHWgJg" width="560" height="315" allowfullscreen></iframe>
+                    </div>
+                    <br>
+                    <h5 class="card-title">煉獄vs猗窩座(あかざ) バトルシーンBGM 鬼滅の刃 - 無限列車</h5>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="jumbotron fakeimg">
+                    <!-- <img src="images\kimetsunoyaiba-01.png" alt="" class="img-thumbnail"> -->
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe src="https://www.youtube.com/embed/jfvQ28Kw484" width="560" height="315" allowfullscreen></iframe>
                     </div>
                     <br>
@@ -212,7 +216,6 @@
                     <a href="comics\kimetsunoyaiba-01.html" class="btn btn-primary">歌詞</a>
                 </div>
             </div>
-
             <div class="col-sm-4">
                 <div class="jumbotron fakeimg">
                     <!-- <img src="images\kimetsunoyaiba-01.png" alt="" class="img-thumbnail"> -->
@@ -225,6 +228,10 @@
                 </div>
             </div>
 
+
+        </div>
+
+        <div class="row">
             <div class="col-sm-4">
                 <div class="jumbotron fakeimg">
                     <!-- <div class="embed-responsive embed-responsive-16by9">
@@ -236,10 +243,6 @@
                 <a href="comics\kimetsunoyaiba-02.html" class="btn btn-primary">鬼滅之刃-水之呼吸</a>
                 </div>
             </div>
-
-        </div>
-
-        <div class="row">
             <div class="col-sm-4">
                 <div class="jumbotron fakeimg">
                     <!-- <img src="images\kimetsunoyaiba-01.png" alt="" class="img-thumbnail"> -->
@@ -262,6 +265,9 @@
                     <!-- <a href="comics\kimetsunoyaiba-02.html" class="btn btn-primary">鬼滅之刃-炎之呼吸</a> -->
                 </div>
             </div>
+
+        </div>
+        <div class="row">
             <div class="col-sm-4">
                 <div class="jumbotron fakeimg">
                     <!-- <img src="images\arinomamade.PNG" alt="" class="img-thumbnail"> -->
@@ -367,12 +373,49 @@
 </div>
 
 
+
 <div class="jumbotron text-center" style="margin-bottom:0">
     <p>Copyright © 2020 Free</p>
 </div>
 
 <script type="text/javascript">
 displayDate();
+
+var vocabularyOfThisWeek = [
+    { JP:"ゲトゥ", KJ:"", EN:"get", TW:''},
+    { JP:"ゲットした", KJ:"", EN:"I got it", TW:''},
+    { JP:"どーん", KJ:"", EN:"dawn", TW:'黎明'},
+    { JP:"どーん！", KJ:"", EN:"Boom！", TW:''},
+    { JP:"どーーーーん！", KJ:"", EN:"Boooooom！", TW:''},
+    { JP:"むらさき", KJ:"紫", EN:"", TW:'紫色'},
+    { JP:"パープル", KJ:"", EN:"purple", TW:'紫色'},
+    { JP:"および", KJ:"お及び", EN:"and", TW:''},
+    { JP:"および", KJ:"お呼び", EN:"call", TW:''},
+    { JP:"ならべ", KJ:"並べ", EN:"", TW:''},
+    { JP:"ならびに", KJ:"並びに", EN:"line up", TW:''},
+    { JP:"ニュー", KJ:"", EN:"new", TW:''},
+    { JP:"シングル", KJ:"", EN:"single", TW:''},
+    { JP:"バトル", KJ:"", EN:"Battle", TW:''},
+    { JP:"シーン", KJ:"", EN:"Scene", TW:''}
+]
+
+
+displayVocabularyOfThisWeek();
+
+
+function displayVocabularyOfThisWeek(){
+    var tableData = "<tr><th>單字</th><th>英文</th><th>中文</th></tr>";
+    vocabularyOfThisWeek.forEach((item, i) => {
+        if(item.KJ){
+            tableData += "<tr><td>" + "<ruby><rb>"+ item.KJ + "</rb><rt>" +  item.JP + "</rt></ruby></td><td>"  + item.EN +  "</td><td>" + item.TW + "</td></tr>";
+        } else {
+            tableData += "<tr><td>" + item.JP + "</td>"  + "<td>" + item.EN +  "</td>" + "<td>" + item.TW + "</td></tr>";
+        }
+    });
+
+    tableData += "<tr><td></td><td></td><td></td></tr>";
+    $("#tbody1").html(tableData);
+}
 </script>
 </body>
 </html>

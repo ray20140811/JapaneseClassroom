@@ -338,7 +338,7 @@ const japanese = [
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     // け
     { Japanese: 'けさ', Kanji: '今朝', Chinese: '今天早上', Lesson: '', Example:'' },
-    { Japanese: 'ケーキ'', Kanji: 'Cake', Chinese: '蛋糕', Lesson: '', Example:'' },
+    { Japanese: 'ケーキ', Kanji: 'Cake', Chinese: '蛋糕', Lesson: '', Example:'' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
     { Japanese: '', Kanji: '', Chinese: '', Lesson: '', Example:'' },
